@@ -1,0 +1,1 @@
+console.log("JavaScript localizada no body");

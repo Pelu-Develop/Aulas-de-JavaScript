@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aulas do Youtube - Colocando Javascript na pagina HTML</title>
+    <!-- Recomendada para o uso do JavaScript, porem quando trabalhamos com o DOM, podemos encontrar alguns erros.
+    Porem, existe metodos para corrigir esses erros, então mais tarde posso saber como trabalhar melhor com isso -->
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <h1>Apredendo Javascript pelas aulas do youtube Hora de Codar</h1>
+        <h2>Objetivo, comentar todas as coisas que estou fazendo para ter material de estudo</h2>
+
+    <!-- Maneira não recomendada para adicionar Javascript na pagina, colocando diretamente no arquivo HTML.
+    Deixa o Codigo muito confuso e complicado para aplicações muito grandes -->
+    <script>
+        console.log("Script no Body");
+    </script>
+    <!-- A mais recomendada, pois a pagina carrega inteira antes de executar a parte do JavaScript, não tendo problemas com o DOM.
+    Porem, essas tags de configuração de pagina são melhores localizadas no head, então tem que se estudar qual é melhor para cada caso. -->
+    <script src="js/script2.js"></script>
+</body>
+</html>

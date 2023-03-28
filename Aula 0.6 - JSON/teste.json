@@ -1,0 +1,20 @@
+[{
+    "nome": "Pedro",
+    "idade": "27",
+    "esta_trabalhando": true,
+    "hobbies": ["Programar","Jogar","malhar"],
+    "detalhes_profissão": {
+        "profissão": "Gerente",
+        "Empresa": "Itapua Transportes"
+    }
+},
+{
+    "nome": "Pedro",
+    "idade": "27",
+    "esta_trabalhando": true,
+    "hobbies": ["Programar","Jogar","malhar"],
+    "detalhes_profissão": {
+        "profissão": "Gerente",
+        "Empresa": "Itapua Transportes"
+    }
+}]
